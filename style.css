@@ -1,72 +1,126 @@
+header{
+  float: right;
+  font-family: arial, sans-serif;
+  font-size: small;
+}
+header a{
+  padding-right: 25px;
+  color: rgba(0,0,0,0.87);
+}
 .container{
-    text-align: center;
+  text-align: center;
 }
 
 img{
-    margin-top: 25%;
+  margin-top: 25%;
 }
 
 input{
-    width: 500px;
-    height: 35px;
-    margin: 4px;
-    padding: 8px;
-    border: 1px solid grey;
-    border-radius: 25px;
+  width: 500px;
+  height: 35px;
+  margin: 4px;
+  padding: 8px;
+  border: 1px solid grey;
+  border-radius: 25px;
 }
 
 .btn1{
-    height: 40px;
-    width: auto;
-    color: #646464;
-    background: #f2f2f2;
-    border: none;
-    cursor: pointer;
-    margin: 4px;
+  height: 40px;
+  width: auto;
+  color: #646464;
+  background: #f2f2f2;
+  border: none;
+  cursor: pointer;
+  margin: 4px;
 
 }
 
 .btn2{
-    margin: 4px;
-    height: 40px;
-    width: auto;
-    color: #646464;
-    background: #f2f2f2;
-    border: none; 
-    cursor: pointer;
+  margin: 4px;
+  height: 40px;
+  width: auto;
+  color: #646464;
+  background: #f2f2f2;
+  border: none; 
+  cursor: pointer;
 
 
 }
 .footer{
-    float: right;
-    margin-bottom: 20px;
-    position: fixed;
-    width: 100%;
-    background-color:gray;
-     color: white;
+  float: right;
+  margin-bottom: 20px;
+  position: fixed;
+  width: 100%;
+  background-color:gray;
+   color: white;
 
 
 }
+footer{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  font-size: 15px;
+  color: rgba(0,0,0,.54);
+  font-family: arial, sans-serif;
+  background-color: rgb(242,242,242);
+  width: 100%;
+  line-height: 4px;
+}
+
+#left{
+  float: left;
+}
+
+#country{
+  margin-left: 20px;
+  padding-top: 5px;
+}
+#left li{
+  display: inline;
+  padding-right: 15px;
+  position: relative;
+  left: -20px;
+}
+
+#left li a, #right li a{
+  text-decoration: none;
+  color: rgba(0,0,0,.54);
+}
+#right{
+  float: right;
+}
+
+#right li{
+  display: inline;
+  padding-right: 15px;
+  position: relative;
+}
+
+#hr2{
+  width: 100%;
+  margin-top: 20px;
+  height: 0px;
+}
+
+#hr1{
+  width: 100%;
+  margin-top: 0px;
+  height: 0px;
+}
 
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: grey;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
